@@ -1,0 +1,399 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(249, 216, 153);
+}
+
+.top {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2cm;
+    background-color: rgb(249, 216, 153);
+    padding: 10px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+    font-size: 1cm;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.right img {
+    width: 30px;
+    height: auto;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    font-size: large;
+    text-align: center;
+}
+
+.paragraph #pq {
+    font-size: 1.5cm;
+    text-align: center;
+    width: 100%;
+}
+
+.paragraph #sp {
+    display: block;
+}
+
+.IMAGE img {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+}
+
+.Image-centered {
+    border-radius: 80px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5cm;
+    padding: 10px;
+}
+
+.par {
+    text-align: left;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.welcome .par p {
+    font-size: 36px;
+}
+
+.welcome .par span {
+    display: block;
+}
+
+.c1 {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: right;
+    height: auto;
+    margin-right: 10px;
+}
+
+.c1 span {
+    display: block;
+}
+
+.DOG {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+}
+
+.DOG .DOGIMG {
+    margin: 10px;
+    border-radius: 50px;
+    height: auto;
+    width: 10cm;
+    padding: 5px;
+}
+
+.dollar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 0.5px;
+    padding: 10px;
+}
+
+.DOG .beltimg {
+    margin: 10px;
+    border-radius: 50px;
+    height: 9cm;
+    width: auto;
+}
+
+.purple {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    background: #e8d3e9;
+    padding: 10px;
+}
+
+.PurDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.PurDiv button {
+    border-radius: 30px;
+}
+
+.PurDiv img {
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+
+.DogBone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    background-image: url(IMAGES_FOR_PROJECT/boneBG3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.DogBone .p1 {
+    text-align: center;
+    font-size: 1cm;
+    margin-top: 10px;
+    color: white;
+}
+
+.DogBone .p2 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.DogBone .p3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.DogBone .p4 {
+    height: 7cm;
+    width: 7cm;
+}
+
+.pp {
+    text-align: center;
+    font-size: 1cm;
+}
+
+.pp2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.imagess {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagess img {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.end {
+    display: flex;
+    background-color: rgb(247, 207, 134);
+    justify-content: space-around;
+}
+
+.end1 {
+    position: absolute;
+    left: 10px;
+}
+
+.end2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    gap: 10px;
+    justify-content: flex-start;
+    position: absolute;
+    left: 50%;
+}
+
+.logoss {
+    display: flex;
+    justify-content: space-around;
+    height: 0.5cm;
+    width: 50px;
+}
+
+.logoss img {
+    height: 0.5cm;
+    cursor: pointer;
+}
+
+.em button {
+    padding: 10px 20px;
+    background-color: rgb(249, 216, 153);
+    border-radius: 30px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.em {
+    padding: 20px 10px;
+    gap: 20px 20px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10px;
+}
+
+.email {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.email-box {
+    gap: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (tablets and phones) */
+@media screen and (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .center-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right {
+        margin-top: 10px;
+    }
+
+    .welcome {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .DOG {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .purple {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .DogBone .p1, .DogBone .p2, .DogBone .p3 {
+        font-size: 1.2cm;
+    }
+
+    .imagess {
+        flex-direction: column;
+    }
+
+    .em {
+        position: relative;
+        right: 0;
+        margin-top: 10px;
+    }
+
+    .logoss {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* For very small screens like phones in portrait mode */
+@media screen and (max-width: 480px) {
+    .top {
+        padding: 5px;
+    }
+
+    .center-content {
+        font-size: 1.2em;
+    }
+
+    .logo h2 {
+        font-size: 1.5em;
+    }
+
+    .line p {
+        font-size: 0.8em;
+    }
+
+    .paragraph #pq {
+        font-size: 1.2cm;
+    }
+
+    .paragraph #sp {
+        font-size: 1em;
+    }
+
+    .welcome .par p {
+        font-size: 30px;
+    }
+
+    .welcome .par span {
+        font-size: 20px;
+    }
+
+    .DOG .DOGIMG {
+        width: 7cm;
+    }
+
+    .dogBone .p3 {
+        font-size: 20px;
+    }
+
+    .em button {
+        width: 100%;
+        margin-left: 0;
+    }
+  
+}
+.center-content a{
+    color:rgb(50, 49, 49);
+
+}
